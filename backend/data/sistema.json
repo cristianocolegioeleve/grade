@@ -1,0 +1,67 @@
+{
+  "disciplinas": [
+    {
+      "id": 1,
+      "nome": "Matemática",
+      "cor": "#3B82F6"
+    },
+    {
+      "id": 2,
+      "nome": "Português",
+      "cor": "#10B981"
+    },
+    {
+      "id": 3,
+      "nome": "História",
+      "cor": "#F59E0B"
+    },
+    {
+      "id": 4,
+      "nome": "Geografia",
+      "cor": "#8B5CF6"
+    },
+    {
+      "id": 5,
+      "nome": "Ciências",
+      "cor": "#06B6D4"
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "disciplinaIds": [
+        1
+      ],
+      "disponibilidade": [
+        {
+          "diaSemana": 1,
+          "aula": 1,
+          "disponivel": true
+        },
+        {
+          "diaSemana": 1,
+          "aula": 2,
+          "disponivel": true
+        },
+        {
+          "diaSemana": 1,
+          "aula": 3,
+          "disponivel": false
+        }
+      ]
+    }
+  ],
+  "turmas": [
+    {
+      "id": 1,
+      "nome": "6ºA",
+      "segmento": "Fundamental II",
+      "ano": "6º Ano",
+      "turma": "A",
+      "periodo": "Manhã"
+    }
+  ],
+  "horarios": [],
+  "conflitos": []
+}
